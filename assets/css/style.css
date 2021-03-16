@@ -96,10 +96,22 @@ main {
     text-align: center;
 }
 
-/* change later!!!!!!! */
-#container-2 p { 
-    flex: 0 0 75%;
-    margin-left: 10px;
+
+#container-2 img { 
+    flex: 1 1 40%;
+    height: 200px;
+    width: 60px;
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#container-2 div {
+    flex: 0 0 80%;
+    display: flex;
+    flex-flow: row wrap;
+       
+    
 }
 
 #container-3 {
@@ -115,7 +127,7 @@ main {
 }
 
 #container-3 footer {
-    flex: 0 0 75%;
+    flex: 0 0 79%;
     margin-left: 10px;
     justify-content: space-around;
     background-color: #edede8;
