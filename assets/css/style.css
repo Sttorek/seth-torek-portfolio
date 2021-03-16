@@ -1,0 +1,65 @@
+/* universal selectors */
+* {
+    background-color: #fff1e6;
+}
+
+/* elemental selectors */
+
+header {
+    display: flex;
+    background-color: #f0efeb;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    
+}
+
+header h1 {
+    background-color: #f0efeb;
+}
+
+nav {
+    display: flex;
+    background-color: #f0efeb;
+    
+    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    
+}
+
+/* class selectors */
+.nav-links {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 10px 20px 10px 20px;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    height: 0px;
+    background-color: #fff1e6;
+    
+}
+
+
+
+.footer-links {
+   
+}
+
+
+/* ID selectors */
+
+#sunrise {
+    height: 300px;
+    width: max-content;
+}
+
+#footer {
+    display: flex;
+    background-color: #edede8;
+}
