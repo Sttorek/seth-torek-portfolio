@@ -29,6 +29,12 @@ footer {
     display: flex;
     align-items: center;
     
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
 }
 
 /* class selectors */
@@ -36,7 +42,7 @@ footer {
     flex-grow: 1;
     flex-shrink: 1;
     padding: 10px 20px 10px 20px;
-    border: 1.5px solid black;
+    border: 2px solid black;
     border-radius: 25px;
     padding-bottom: 20px;
     margin-left: 15px;
@@ -45,21 +51,73 @@ footer {
     
 }
 
-
-
 .footer-links {
-   
+    background-color: #edede8;
 }
+
+
 
 
 /* ID selectors */
 
 #sunrise {
     height: 300px;
-    width: max-content;
+    width: auto;
+    background: url("../images/sunset.jpg");
+    background-size: cover;
+    background-position: 0% 100%;
 }
 
-#footer {
+
+#container-1 {
     display: flex;
+    flex-direction: row;
+}
+
+#container-1 h1 {
+    border-right: 2px solid black;
+    flex: 0 0 20%;
+    text-align: center;
+}
+
+#container-1 p {
+    flex: 0 0 75%;
+    margin-left: 10px;
+}
+
+#container-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#container-2 h1 {
+    border-right: 2px solid black;
+    flex: 0 0 20%;
+    text-align: center;
+}
+
+/* change later!!!!!!! */
+#container-2 p { 
+    flex: 0 0 75%;
+    margin-left: 10px;
+}
+
+#container-3 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#container-3 h1 {
+    border-right: 2px solid black;
+    flex: 0 0 20%;
+    text-align: center;
+}
+
+#container-3 footer {
+    flex: 0 0 75%;
+    margin-left: 10px;
+    justify-content: space-around;
     background-color: #edede8;
 }
+
