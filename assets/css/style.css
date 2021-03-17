@@ -1,6 +1,6 @@
 /* universal selectors */
 * {
-    font-family: Helvetica;
+    font-family: Helvetica, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* elemental selectors */
@@ -56,9 +56,8 @@ a {
 .hero {
     height: 100%;
     width: 100%;
-    background: url("../images/redox_01_@2X.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url("../images/binding_light_@2X.png");
+    background-repeat: repeat;
     background-position: center center;
 }
 
@@ -80,6 +79,7 @@ a {
     
 }
 
+/* div containers for images and title boxes */
 .img-containers {
     display: flex;
     margin: 5px;
@@ -125,11 +125,13 @@ a {
    
 }
 
+/* profile picture */
 #container-1 img {
     height: 180px;
     width: 180px;
 }
 
+/* profile picture container */
 #profile {
     flex: 0 0 35%;
     display: flex;
@@ -141,10 +143,9 @@ a {
 #container-2 {
     display: flex;
     flex-direction: row-reverse;
-    background: url("../images/redox_01_@2X.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: url("../images/binding_light_@2X.png");
+    background-repeat: repeat;
+    
     
 }
 
@@ -171,14 +172,10 @@ a {
     display: flex;
     flex-flow: row wrap-reverse; 
     justify-content: center;
-    background: url("../images/redox_01_@2X.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url("../images/binding_light_@2X.png");
+    
     background-position: center center;
 }
-
-/* -------------------------------------- */
-
 
 
 
@@ -200,14 +197,10 @@ a {
 
 
 
-  /* ----------------------------------- */
-
 #container-3 {
     display: flex;
     flex-direction: row;
-    background: url("../images/redox_01_@2X.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url("../images/binding_light_@2X.png");
     background-position: center center;
     
 }
@@ -229,6 +222,4 @@ a {
     border-top: 2px solid black;
 }
 
-#container-3 a {
-    background-color: #edede8;
-}
+
